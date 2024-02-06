@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Viagens Personalizadas</title>
     <style>
+        /* Estilos CSS */
         body {
             font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
         }
         .header {
             background-color: #333;
@@ -16,6 +20,22 @@
         }
         .content {
             margin: 15px;
+        }
+        .destination {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .destination img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .price {
+            font-weight: bold;
+            color: #007bff;
         }
     </style>
 </head>
@@ -27,5 +47,16 @@
         <h2>Bem-vindo ao nosso site de viagens!</h2>
         <p>Aqui, nós personalizamos o seu roteiro de viagem de acordo com as suas preferências.</p>
     </div>
+    <div class="destination">
+        <img src="egypt.jpg" alt="Pirâmides de Gizé">
+        <h3>Egito</h3>
+        <p>Explore as Pirâmides de Gizé, uma das sete maravilhas do mundo. Preço: <span class="price">$1500</span></p>
+    </div>
+    <div class="destination">
+        <img src="malawi.jpg" alt="Lago Malawi">
+        <h3>Malawi</h3>
+        <p>Descubra a beleza do Lago Malawi e faça safáris emocionantes. Preço: <span class="price">$1200</span></p>
+    </div>
+    <!-- Adicione mais destinos aqui -->
 </body>
 </html>
